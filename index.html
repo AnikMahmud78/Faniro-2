@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link style sheet  -->
+    <link rel="stylesheet" href="index.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lexend+Deca:wght@100;200;500;700&family=Montserrat&family=Noto+Sans&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <!-- link fontawsome icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Faniro</title>
+</head>
+
+<body>
+    <!-- Header part -->
+    <header>
+        <div class="row header">
+            <div class="col-sm-8 header__column-left">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light navbar__conatiner ">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand navbar-brand__text" href="#">Funiro.</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown__product">
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Product
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <br>
+                                <li class="nav-item dropdown dropdown__rooms">
+                                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Rooms
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-link__inspirations">
+                                    <a class="nav-link ">Inspirations</a>
+                                </li>
+
+                            </ul>
+                            <form class="d-flex search">
+                                <i class="fas fa-search search__icon"></i>
+                                <input class="search__input " type="search" placeholder="Search for minimalist chair"
+                                    aria-label="Search">
+                            </form>
+
+                        </div>
+
+                    </div>
+                </nav>
+                <div class=" slider__btn" >
+                    <span class="slider__btn-hover"><button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slider__btn-style" aria-current="true" aria-label="Slide 1"></button></span>
+                    <span class="slider__btn-hover"><button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"  class=" slider__btn-style"></button></span>
+                   <span class="slider__btn-hover"> <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"  class=" slider__btn-style"></button></span>
+                  </div>
+                <!-- carousel -->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide carousel__style " data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/1528 1.png" class="d-block  carousel__img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/1528 1.png" class="d-block carousel__img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/1528 1.png" class="d-block carousel__img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                <!-- carousel -->
+                <div >
+                    <div class="card card__style" >
+                        <div class="card-body card__body-style">
+                            <h1 class="card-title fs-1 ">High-Quality
+                                Furniture Just
+                                For You</h1>
+                            <p class="card-subtitle mb-5 mt-5 text-muted">Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+                           <button class="card__btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 header__column-right">
+                <div class="header__icon ">
+                    <i class="far fa-heart header__icon-padding"></i>
+                    <i class="fas fa-shopping-cart header__icon-padding"></i>
+                    <img src="images/Ellipse 2.png" alt="">
+                </div>
+                <div class="slider__btn-indicator">
+                    <button class="indicator " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">< </button>
+                    <button class="indicator" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
